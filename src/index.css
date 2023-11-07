@@ -1,7 +1,7 @@
 body {
   background-color: #d2dfe7;
   color: #141313;
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   border-radius: 10px;
   font-family: 'Poppins', sans-serif;
@@ -9,18 +9,19 @@ body {
 
 .container {
   margin: 0px auto;
-  margin-top: 10%;
-  margin-bottom: 50px;
-  width: 90%;
-  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  width: 80%;
+  max-width: 400px;
 }
 
 .add-button {
-  background-color: #1C90F4;
+  background-color: #acd2f3;
   padding: 10px 15px;
+margin-left: 90%;
   text-decoration: none;
   border-radius: 10px;
-  color: #ede8e8;
+  color: #170404;
 }
 
 .title-button {
@@ -59,14 +60,14 @@ body {
 }
 
 .btn-primary {
-  background-color: #1C90F4;
+  background-color: #69a1ea;
   padding: 15px;
-  width: 84%;
+  width: 88%;
   font-size: 16px;
-  margin: 0px 10px;
+  margin-top:  15px;
   border: none;
   border-radius: 10px;
-  color: #250658;
+ 
 }
 
 .btn {
@@ -88,7 +89,7 @@ body {
 }
 
 .card {
-  background-color: #03141D;
+  background-color: #c1deee;
   margin: 20px auto;
   padding: 10px;
   border-radius: 10px;
@@ -103,13 +104,14 @@ body {
 .card-title {
   color: #F5F5F5;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .cartd-text {
-  color: #F5F5F5;
+  color: #0f0a0a;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
+  font-size: large;
 }
 
 .form-group {
@@ -117,17 +119,83 @@ body {
 }
 
 .form-control {
-  padding: 10px;
-  width: 100%;
+  padding: 8%;
+  width: 70%;
   font-size: 16px;
-  margin: 0px 10px;
+  margin: 20px 20px;
   border: none;
   border-radius: 10px;
   color: #f25f5f;
-  background-color: #0d304544;
+  background-color: #0fcdf444;
+ 
 }
 .input-error{
   color: red;
   margin-right:15%;
   font-size: 12px;
+}
+
+
+
+.alert {
+  background-color: #cee6c6; 
+  color: #070202;
+  padding: 10px 15px;
+ 
+  border-radius: 5px;
+  width: 350px; 
+  height: 70px;
+  margin: 0 auto; 
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+.table-header {
+  padding: 10px;
+ 
+  border: 1px solid hwb(255 96% 2%);
+}
+h1, h2,h4,p{
+  text-align: left;
+}
+
+.add-button-icone {
+  background-color: #e7d2d2;
+  padding: 15px 15px;
+  max-width: 100%;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #530407;
+}
+
+.table{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#041f43 ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-header {
+  padding: 10px;
+ 
+  border: 1px solid hwb(255 96% 2%);
+}
+h1, h2,h4,p{
+  text-align: left;
+}
+
+.btn-delete {
+  background-color: #9ac6ed;
+  padding: 1px;
+  width: 20px;
+  font-size: 16px;
+text-align: center;
+  border: none;
+  border-radius: 10px;
+  color: #640606;
 }
